@@ -1,9 +1,11 @@
-``` Node 
+## Node 
+```
 cd backend
 npm run start:dev
 ```
 
-``` React 
+## React 
+```
 cd frontend
 npm start
 ```
