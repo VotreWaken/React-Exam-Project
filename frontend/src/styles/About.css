@@ -1,0 +1,57 @@
+
+.About {
+    display: flex;
+    background: #12232E;
+    padding: 60px;
+}
+
+.SecondLine  {
+    width: 100px;
+    margin: 5px 0px 5px 0px;
+}
+
+.FirstLine { 
+    width: 200px;
+}
+
+.AboutLeft h2 {
+    font-size: 36px;
+}
+
+.AboutLeft p {
+    font-size: 30px;
+}
+
+.AboutLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.AboutItem {
+    text-align: center;
+}
+
+.AboutItem span {
+    font-size: 56px;
+}
+
+.AboutItem p {
+    text-wrap: nowrap;
+}
+
+.AboutItems {
+    display: grid;
+    grid-template-rows: 120px 120px;
+    grid-template-columns: 200px 200px;
+    grid-gap: 60px;
+}
+
+.AboutRight img {
+    width: fit-content;
+    max-width: 600px;
+}
+
+.AboutRight, .AboutLeft {
+    margin: 20px;
+}

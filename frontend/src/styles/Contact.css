@@ -1,0 +1,47 @@
+
+.Contact {
+    display: flex;
+    gap: 40px;
+    padding: 40px;
+    background: #071620;
+    width: 100%;
+}
+
+.Contact input {
+    background: #152836;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    width: 100%;
+    height: 60px;
+    font-size: 24px;
+}
+
+.ContactTitle {
+    margin-top: 120px;
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+#ContactDescriptionInput {
+    height: 120px;
+}
+
+.ContactRightSide {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 90%;
+}
+
+.ContactRightSide button {
+    height: 70px;
+    border-radius: 3px;
+}
+
+.ContactItem {
+    display: flex;
+    flex-direction: column;
+    font-size: 24px;
+}

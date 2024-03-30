@@ -1,0 +1,366 @@
+.SellCarsWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 99vw;
+}
+
+.drop-area {
+    width: 30%;
+    height: 40vh;
+    border: 5px dashed red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.MediaDetails {
+    padding: 60px;
+}
+
+.drop-area-active {
+    width: 30%;
+    height: 40vh;
+    border: 5px dashed black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    background: #12232E;
+    width: 99vw;
+    scroll-snap-align: none;
+}
+nav {
+    height: 100px;
+}
+
+.nav__items {
+    width: 99%;
+    justify-content: space-around;
+}
+
+.nav__items {
+    display: flex;
+    margin: 20px 0px 20px 0px;
+    align-items: center;
+}
+
+section {
+    width: 90%;
+    padding: 40px;
+    font-size: 24px;
+    background: #071620;
+}
+
+.CarDetails {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 80px 80px;
+    grid-gap: 20px;
+}
+
+.TitleItem {
+    grid-column: 1 / 3;
+}
+
+.TitleItem input {
+    width: 100%;
+    height: 40px;
+    background: #152836;
+    border: none;
+    outline: none;
+    font-size: 22px;
+}
+
+.PassangerCapacityItem input {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    width: 85%;
+}
+
+.PassangerCapacityInput {
+    display: flex;
+}
+
+
+
+.PassangerCapacityInput button {
+    width: 15%;
+    border-radius: 3px 3px 3px 3px;
+}
+
+input, select {
+    height: 50px;
+    background: #152836;
+    border: none;
+    outline: none;
+    font-size: 22px;
+}
+
+.ConditionItem, .BodyTypeItem, .YearItem, .BrandItem, .PassangerCapacityItem, .ModelItem, .ExteriorColorItem {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.ConditionItem {
+    align-items: center;
+}
+
+.ConditionCheckBox {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.DescriptionItem {
+    grid-column: 1 / 4;
+}
+
+.DescriptionItem input {
+    width: 100%;
+    height: 90px;
+}
+
+.EngineDetails {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 80px 80px;
+    grid-gap: 20px;
+}
+
+.FuelTypeItem, .MileageItem, .TransmissioneItem, .DrivetrainItem, .EngineCapacityItem, .PowerItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.EngineCapacityItemInput, .PowerItemInput {
+    display: flex;
+}
+
+.EngineCapacityItemInput button {
+    width: 15%;
+    border-radius: 3px;
+}
+
+.EngineCapacityItemInput input {
+    width: 85%;
+}
+
+.PowerItemInput button {
+    width: 15%;
+    border-radius: 3px;
+}
+
+.PowerItemInput input {
+    width: 85%;
+}
+
+.DimensionDetails {
+    display: flex;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.LengthItem, .WidthItem, .HeightItem, .CargoVolumeItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.LengthItemInput {
+    display: flex;
+}
+
+.LengthItemInput input {
+    width: 85%;
+}
+
+.LengthItemInput button {
+    width: 15%;
+    border-radius: 3px;
+}
+
+.WidthItemInput {
+    display: flex;
+}
+
+.WidthItemInput input {
+    width: 85%;
+}
+
+.WidthItemInput button {
+    width: 15%;
+    border-radius: 3px;
+}
+
+.HeightItemInput {
+    display: flex;
+}
+
+.HeightItemInput input {
+    width: 85%;
+}
+
+.HeightItemInput button {
+    width: 15%;
+    border-radius: 3px;
+}
+
+.CargoVolumeItemInput {
+    display: flex;
+}
+
+.CargoVolumeItemInput input {
+    width: 85%;
+}
+
+.CargoVolumeItemInput button {
+    width: 15%;
+    border-radius: 3px;
+}
+
+.FeaturesDetails {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 80px;
+    grid-gap: 20px;
+}
+
+.FeaturesDetails input {
+    grid-column: 1 / 5;
+}
+
+.FeaturesDetails div {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+
+}
+
+.LocationDetails img {
+    width: 100%;
+}
+
+.AddressItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.AddressItem input {
+    margin: 20px 0px 20px 0px;
+}
+.FullPriceItemInput {
+    margin: 20px 0px 20px 0px;
+}
+
+.FullPriceItemInput {
+    display: flex;
+}
+
+.FullPriceItemInput input {
+    width: 96%;
+}
+
+.FullPriceItemInput button {
+    width: 4%;
+    border-radius: 3px;
+}
+
+.UploadMediaItem {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.UploadMediaItemDrop {
+    width: 30%;
+    height: 40vh;
+    border: 5px dashed red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.LinkMediaItem {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 30px 0px 30px 0px;
+}
+
+.AddressItem img {
+    width: 100%;
+}
+
+.VehicleHistoryItem input {
+    height: 33px;
+    width: 100%;
+}
+
+
+@media  (max-width: 1110px) {
+    .DimensionDetails {
+        flex-direction: column;
+    }
+
+    .EngineDetails {
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: 80px 80px 80px 80px;
+    }
+}
+
+@media  (max-width: 900px) {
+
+    .CarDetails {
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(5, auto);
+    }
+
+    .TitleItem {
+        grid-column: 1 / 1;
+    }
+    .DescriptionItem {
+        grid-column: 1 / 1;
+    }
+    
+    .FeaturesDetails {
+        grid-template-columns: repeat(2, auto);
+        grid-template-rows: repeat(5, auto);
+    }
+
+    .drop-area-active {
+        width: 100%;
+    }
+
+    .FeaturesDetails input {
+        grid-column: 1 / 3;
+    }
+}
+
+@media  (max-width: 516px) { 
+    .FeaturesDetails {
+        grid-template-columns: repeat(1, 80px);
+        grid-template-rows: repeat(5, 80px);
+        font-size: 14px;
+    }
+    .FeaturesDetails input {
+        grid-column: 1 / 1;
+    }
+    .EngineDetails input {
+        width: 100%;
+    }
+    .CarDetails {
+        width: 100%;
+    }
+}
+
+.SellCarBtn {
+    height: 70px;
+    border-radius: 3px;
+    width: 90%;
+    margin: 50px 0px 50px 0px;
+}

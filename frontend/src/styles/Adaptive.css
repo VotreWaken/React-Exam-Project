@@ -1,0 +1,107 @@
+@media  (max-width: 1300px) {
+    .About {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .AboutItems {
+        justify-content: center;
+    }
+
+    .Contact {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media  (max-width: 1024px) {
+    .CompareCarsCards, .RecommendedCards {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+
+    .AboutRight img {
+        width: 100%;
+    }
+    .ContactLeftSide img {
+        width: 100%;
+    }
+
+    .CarCard {
+        max-width: 100%;
+    }
+}
+
+
+@media  (max-width: 800px) {
+    .AboutItems {
+        display: flex;
+        font-size: 24px;
+        flex-direction: column;
+    }
+
+    .SecondRowInput {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Hero__Search-Filter ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav__items {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media  (max-width: 487px) {
+    .AboutItems {
+        display: flex;
+        font-size: 14px;
+        flex-direction: column;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+
+    .footerLinks ul li ul{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media  (max-width: 375px) {
+    .AboutItems {
+        display: flex;
+        font-size: 14px;
+        flex-direction: column;
+    }
+
+    .AboutLeft p {
+        font-size: 14px;
+    }
+    .CarCard {
+        max-width: 90%;
+    }
+    .CarDetails li p {
+        font-size: 14px;
+    }
+
+    .About {
+        padding: 40px;
+    }
+
+    .FirstRowInput {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,93 @@
+/* Google fonts */
+
+@import url(https://fonts.googleapis.com/css?family=regular,600,700);
+@import url(https://fonts.googleapis.com/css?family=Inter:regular,500);
+
+/* Reset default style */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+/* Basic style */
+
+body {
+  background-image: url(./assets/img/HomePage/HeroSection/Hero.png);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color:#6975A6;
+  transition: 0.3s;
+}
+
+h1{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 100;
+  font-size: 56px;
+  line-height: 68px;
+  letter-spacing: 0.13em;
+  color: #FFFFFF;
+}
+h2{
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 46px;
+}
+
+section{
+  padding: 60px 0px;
+}
+
+.list-group-item{
+  background-color: #aa8c57;
+}
+
+button{
+  font-size: 20px;
+  border-radius: 20px;
+  background: #007CC7;
+  outline: none;
+  border: none;
+}
+
+button:hover{
+  color:#FFF;
+  transition: 0.3s;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.HomeWrapper {
+  width: 100%;
+}

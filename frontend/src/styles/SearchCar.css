@@ -1,0 +1,68 @@
+
+.Hero__Search-Filter ul {
+    display: flex;
+    gap: 80px;
+    list-style-type: none;
+    justify-content: center;
+    font-size: 34px;
+    margin: 40px;
+}
+.Hero__Search-Inputs * {
+    margin: 10px;
+    font-size: 20px;
+}
+
+select {
+    background: black;
+}
+
+.Hero__Search-Inputs input {
+    background: #152836;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.Hero__Search-Inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.FirstRowInput, .SecondRowInput {
+    display: flex;
+    height: 60px;
+}
+
+.Slider {
+    width: 30%;
+}
+
+.SearchInput {
+    width: 50%;
+    text-align: center;
+}
+
+.ModelInput, .BrandInput {
+    width: 25%;
+}
+
+.SearchBtn {
+    width: 30%;
+}
+
+  .LocationInput {
+      grid-column: 1 / 3;
+    text-align: center;
+
+  }
+  .Slider {
+      grid-column: 4 / 6;
+  }
+
+.PriceText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
